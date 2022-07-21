@@ -1,4 +1,4 @@
-class Employee {
+export class Employee {
   empCode: number;
   name: string;
   constructor(empcode: number, name: string) {
