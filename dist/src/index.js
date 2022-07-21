@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.doSomeStuff = exports.sendMessage = exports.employee = void 0;
+exports.doSomeStuff = exports.sendMessage = void 0;
 const dummyClass_1 = require("./example/dummyClass");
-exports.employee = new dummyClass_1.Employee('Sample message', 100, 'pawan');
+// export let employee = new Employee('Sample message', 100, 'pawan');
 function sendMessage() {
     let employee = new dummyClass_1.Employee('Sample message', 100, 'pawan');
     return employee.sendMessage();

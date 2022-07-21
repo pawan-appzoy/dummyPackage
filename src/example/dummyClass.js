@@ -18,4 +18,3 @@ var Employee = /** @class */ (function () {
     return Employee;
 }());
 exports.Employee = Employee;
-// emp.displayName();
