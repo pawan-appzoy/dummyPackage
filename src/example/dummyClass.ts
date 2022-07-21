@@ -20,5 +20,3 @@ export class Employee {
     );
   }
 }
-
-// emp.displayName();

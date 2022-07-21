@@ -1,6 +1,6 @@
 import {Employee} from './example/dummyClass';
 
-export let employee = new Employee('Sample message', 100, 'pawan');
+// export let employee = new Employee('Sample message', 100, 'pawan');
 
 export function sendMessage() {
   let employee = new Employee('Sample message', 100, 'pawan');
