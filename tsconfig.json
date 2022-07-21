@@ -2,13 +2,11 @@
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
     "rootDir": ".",
-    // "outDir": "build",
     "moduleResolution": "node",
     "preserveConstEnums": true,
     "strict": true,
     "target": "es2017",
-    "outDir": "./dist",
-    "baseUrl": "./"
+    "outDir": "./dist"
   },
   "include": ["src/**/*.ts", "test/**/*.ts"],
   "exclude": ["node_modules"]
