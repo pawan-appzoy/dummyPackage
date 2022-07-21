@@ -1,3 +1,6 @@
+"use strict";
+exports.__esModule = true;
+exports.Employee = void 0;
 var Employee = /** @class */ (function () {
     function Employee(empcode, name) {
         this.empCode = empcode;
@@ -8,5 +11,6 @@ var Employee = /** @class */ (function () {
     };
     return Employee;
 }());
+exports.Employee = Employee;
 var emp = new Employee(100, 'Pawan');
 emp.displayName();
