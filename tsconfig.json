@@ -6,7 +6,8 @@
     "preserveConstEnums": true,
     "strict": true,
     "target": "es2017",
-    "outDir": "build"
+    "outDir": "build",
+    "typeRoots": ["./node_modules/@types", "./src/types"]
   },
   "include": ["src/**/*.ts", "test/**/*.ts"],
   "exclude": ["node_modules"]
