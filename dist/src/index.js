@@ -1,10 +1,10 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.doSomeStuff = exports.sendMessage = exports.employee = void 0;
-var dummyClass_1 = require("./example/dummyClass");
+const dummyClass_1 = require("./example/dummyClass");
 exports.employee = new dummyClass_1.Employee('Sample message', 100, 'pawan');
 function sendMessage() {
-    var employee = new dummyClass_1.Employee('Sample message', 100, 'pawan');
+    let employee = new dummyClass_1.Employee('Sample message', 100, 'pawan');
     return employee.sendMessage();
 }
 exports.sendMessage = sendMessage;
@@ -15,3 +15,4 @@ function doSomeStuff() {
 exports.doSomeStuff = doSomeStuff;
 doSomeStuff();
 sendMessage();
+//# sourceMappingURL=index.js.map
