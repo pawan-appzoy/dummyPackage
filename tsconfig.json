@@ -6,7 +6,7 @@
     "preserveConstEnums": true,
     "strict": true,
     "target": "es2017",
-    "outDir": "./dist"
+    "outDir": "build"
   },
   "include": ["src/**/*.ts", "test/**/*.ts"],
   "exclude": ["node_modules"]
